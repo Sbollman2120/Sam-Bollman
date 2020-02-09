@@ -1,0 +1,147 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 25px;
+    background-image: url(../images/interlaced.png);
+}
+
+header {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+h3 {padding: 0.5cm;
+    background-color: rgb(97, 97, 97);
+    border: 4px solid lightgray;
+    float: left;
+    color: gray;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    padding: 2px;
+    padding-top: 25px;
+    margin-left: 0.5cm;
+    color: gray;
+}
+
+.table-test{
+    margin: auto;
+    width: 960px;
+}
+
+.test {
+    padding-left: 50%;
+}
+
+.ul-mods li{
+    color:  #777777;
+    display: inline;
+    list-style-type: upper-roman;
+}
+
+li~li { 
+    padding-left: 5%;
+    border-left: 1px solid lightgray;
+}
+
+.main-block {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+}
+
+#content {
+    margin-left: 0.75cm;
+    margin-right: 0.75cm;
+}
+
+#bio-photo {
+    padding: 10px;
+    float: left;
+}
+
+p {
+    color:  gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 100px;
+    padding-bottom: 25px;
+    line-height: 2;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+.connect {
+    width: 960px;
+    margin-bottom: 200px;
+    border: 4px solid lightgray;
+}
+
+h4 {
+    text-align: center;
+    padding: 2px;
+    padding-top: 25px;
+    margin-left: 0.5cm;
+    color: gray;
+}
+
+.footer {
+    color: gray;
+    font-size: 8pt;
+    text-align: center;
+    height: 40px;
+    border-top: 8px solid lightgray;
+    background-color: rgb(77, 73, 73);
+    overflow: hidden;
+    left: 0;
+    position: fixed; bottom: 0;
+    bottom: 0;
+    width: 100%;
+  }
+ 
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(3, 1, 1); /* Black border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: gray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactcontainer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: lightgray;
+    padding: 20px;
+    width: 960px;
+    margin: auto;
+  }
